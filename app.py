@@ -30,7 +30,7 @@ model = LogisticRegression(max_iter=1000)
 model.fit(X_scaled, y)
 
 # App UI
-st.title("🌸 PCOS Risk Prediction App")
+st.title(" PCOS Risk Prediction App")
 st.write("Enter patient details below:")
 
 age = st.slider("Age (years)", 18, 50, 25)
